@@ -32,7 +32,7 @@ const Contact = () => {
         <Button 
           variant="outlined" 
           startIcon={<LinkedIn />} 
-          href="https://linkedin.com/in/ayoub-dakhli" 
+          href="https://www.linkedin.com/in/dakhli-ayoub-a68aa23b2/" 
           target="_blank"
           size="large"
         >
