@@ -1,0 +1,310 @@
+﻿
+
+
+---
+
+## 🎨 PHASE 2 — Design System
+
+- Create `theme.js`:
+
+  - Primary color (blue or purple)
+
+  - Clean typography
+
+  - Dark mode enabled  
+
+- Define global styles:
+
+  - Spacing system
+
+  - Container width
+
+  - Responsive breakpoints  
+
+---
+
+## 🧱 PHASE 3 — Core Sections
+
+### 🟢 HERO SECTION
+
+- Name + Title (Full-Stack Engineering Student)
+
+- Short description (2 lines max)
+
+- CTA buttons:
+
+  - View Projects
+
+  - Contact Me
+
+- Profile image
+
+---
+
+### 🟡 ABOUT SECTION
+
+- Short paragraph (who you are)
+
+- Skills summary (short, not paragraphs)
+
+- Focus:
+
+  - Full-stack
+
+  - Problem solving
+
+  - Learning mindset  
+
+---
+
+### 🔵 PROJECTS SECTION (MOST IMPORTANT)
+
+- Card layout (Material UI)
+
+- Each project includes:
+
+  - Title
+
+  - Description
+
+  - Tech stack
+
+  - GitHub link
+
+  - Live demo (if exists)
+
+- Add at least 2 projects:
+
+  - Khademni
+
+  - Portfolio website  
+
+---
+
+### 🟣 SKILLS SECTION
+
+- Group skills:
+
+  - Frontend
+
+  - Backend
+
+  - Tools  
+
+- Display as chips or icons (not text blocks)
+
+---
+
+### ⚫ CONTACT SECTION
+
+- Email  
+
+- GitHub  
+
+- LinkedIn  
+
+- Optional contact form  
+
+---
+
+## 🧩 PHASE 4 — DATA-DRIVEN CONTENT
+
+- Create `data/projects.js`
+
+- Store projects as JSON objects  
+
+- Render dynamically (no hardcoded content)
+
+---
+
+## 🎯 PHASE 5 — NAVIGATION
+
+- Create Navbar:
+
+  - Home
+
+  - Projects
+
+  - Skills
+
+  - Contact  
+
+- Add smooth scrolling  
+
+---
+
+## 📱 PHASE 6 — RESPONSIVENESS
+
+- Ensure:
+
+  - Mobile layout works perfectly
+
+  - Cards stack vertically
+
+  - Text remains readable  
+
+---
+
+## ⚡ PHASE 7 — PERFORMANCE
+
+- Optimize:
+
+  - Images (compressed)
+
+  - Lazy loading
+
+  - Remove unused code  
+
+---
+
+## 🌐 PHASE 8 — DEPLOYMENT
+
+- Add favicon  
+
+- Set page title  
+
+- Deploy using:
+
+  - GitHub Pages OR Vercel  
+
+- Ensure public access  
+
+---
+
+## 🧠 PHASE 9 — CV INTEGRATION
+
+- Add button: **Download CV**  
+
+- Link portfolio inside CV  
+
+---
+
+# 🔥 BONUS TASKS (HIGH IMPACT)
+
+- Add subtle animations  
+
+- Add tech stack badges  
+
+- Add dark/light mode toggle  
+
+- Add basic SEO meta tags  
+
+---
+
+# ⚠️ RULES
+
+- No overengineering  
+
+- No useless animations  
+
+- No long paragraphs  
+
+- Focus on clarity and projects  
+
+- Keep code clean and modular  
+
+---
+
+# 🎯 FINAL GOAL
+
+Build a portfolio that:
+
+- Looks professional in under 5 seconds  
+
+- Clearly shows your projects  
+
+- Matches your CV  
+
+- Works perfectly on mobile  
+
+- Loads fast  
+
+
+USER_INTENT_CV_LATEX_FORMAT:
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Ayoub Dakhli}} \\
+    \vspace{2mm}
+    Full-Stack Engineering Student \\
+    \vspace{2mm}
+    +216 55 940 430 \quad | \quad
+    \href{mailto:dakhliayoub99@gmail.com}{dakhliayoub99@gmail.com} \\
+    Ariana, Tunisia \\
+    \vspace{1mm}
+    \textbf{Portfolio:} \url{https://yourportfolio.com} \quad | \quad
+    \textbf{GitHub:} \url{https://github.com/your-username}
+\end{center}
+
+\vspace{4mm}
+
+\section*{Objective}
+Engineering student specializing in software engineering, seeking a summer internship in full-stack development. 
+Focused on building scalable web applications and strengthening backend and frontend development skills in a real-world environment.
+
+\section*{Education}
+\textbf{Engineering Degree in Computer Science} \hfill 2022 -- 2028 (Expected) \\
+ESPRIT – Private Higher School of Engineering and Technologies, Tunis
+
+\section*{Projects}
+
+\textbf{Khademni – Service Matching SaaS Platform} \\
+\url{https://github.com/rg-esprit/5ademni.tn}
+\begin{itemize}[noitemsep]
+    \item Developed a full-stack web platform connecting users with service providers
+    \item Designed backend using \textbf{Symfony (PHP)} with structured \textbf{MySQL} database
+    \item Built responsive frontend interfaces using \textbf{HTML, CSS, JavaScript}
+    \item Implemented version control and team collaboration using \textbf{Git \& GitHub}
+    \item Worked in Agile environment (task management, iterations, code reviews)
+\end{itemize}
+
+\vspace{2mm}
+
+\textbf{Personal Portfolio Website} \\
+\begin{itemize}[noitemsep]
+    \item Designed and developed a personal portfolio to showcase projects and technical skills
+    \item Built using \textbf{React} and \textbf{Material UI} with responsive design
+    \item Implemented automated deployment pipeline using \textbf{GitHub}
+    \item Centralized multiple projects with descriptions, technologies, and source code links
+\end{itemize}
+
+\section*{Technical Skills}
+\textbf{Languages:} Java, Python, PHP, JavaScript \\
+\textbf{Frontend:} HTML, CSS, JavaScript, React \\
+\textbf{Backend:} Symfony (PHP), REST APIs (basic) \\
+\textbf{Database:} MySQL \\
+\textbf{Tools:} Git, GitHub \\
+\textbf{Concepts:} OOP, MVC Architecture, Agile methodology
+
+\section*{Experience (Academic)}
+\begin{itemize}[noitemsep]
+    \item Developed and deployed web applications from concept to implementation
+    \item Collaborated in team environments using Git-based workflows
+    \item Applied best practices in code structure, readability, and maintainability
+\end{itemize}
+
+\section*{Languages}
+\begin{itemize}[noitemsep]
+    \item Arabic: Native
+    \item French: Intermediate
+    \item English: Intermediate (technical proficiency)
+\end{itemize}
+
+\section*{Interests}
+\begin{itemize}[noitemsep]
+    \item Software development and emerging technologies
+    \item Open-source projects
+    \item Running and cinematography
+\end{itemize}
+
+\end{document}
+ 
