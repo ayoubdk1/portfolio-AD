@@ -14,7 +14,7 @@ const Hero = () => {
             Hi, I'm Ayoub.
           </Typography>
           <Typography variant="h5" color="text.secondary" gutterBottom>
-            It Engineering Student
+            Computer Engineering Student
           </Typography>
           <Typography variant="body1" paragraph sx={{ mb: 4 }}>
             I build scalable web applications, bridging the gap between elegant frontend interfaces and robust backend architectures.
