@@ -13,6 +13,7 @@ const Navbar = ({ mode, toggleTheme }) => {
           <Button color="inherit" href="#hero">Home</Button>
           <Button color="inherit" href="#about">About</Button>
           <Button color="inherit" href="#skills">Skills</Button>
+          <Button color="inherit" href="#certifications">Certifications</Button>
           <Button color="inherit" href="#projects">Projects</Button>
           <Button color="inherit" href="#contact">Contact</Button>
           <IconButton color="inherit" onClick={toggleTheme}>
