@@ -16,5 +16,14 @@ export const projects = [
         githubLink: "https://github.com/your-username/portfolio",
         liveDemo: "https://yourportfolio.com",
         image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        id: 3,
+        title: "Projet Intégré – Infrastructure Systèmes & Réseaux",
+        description: "Design and deployment of a distributed network infrastructure combining physical equipment, virtualization, and system services. The project includes static and dynamic routing, integration of web, NFS, monitoring, and database services, as well as securing and supervising the architecture in a virtualized environment.",
+        techStack: ["GNS3", "Linux", "VMware", "MySQL", "Apache", "NFS", "Grafana", "Prometheus", "Shell"],
+        githubLink: "",
+        liveDemo: "",
+        image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80"
     }
 ];
