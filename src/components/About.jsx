@@ -8,7 +8,7 @@ const About = () => {
         Q: What is your background?
       </Typography>
       <Typography variant="body1" paragraph sx={{ fontSize: '1.1rem', lineHeight: 1.8 }}>
-        I am an engineering student specializing in software engineering at ESPRIT, expected to graduate in 2028. My primary focus is on full-stack development, leveraging my problem-solving skills and a strong learning mindset to tackle real-world challenges. I am passionate about creating efficient solutions and continuously expanding my technical knowledge.
+        3rd-Year Student in the Integrated Preparatory Engineering Program at ESPRIT School of Engineering, actively building diverse academic and personal projects across software engineering, full-stack development, systems, and networking. Passionate about creating scalable and efficient solutions, with strong problem-solving abilities and a continuous learning mindset. Experienced in developing real-world applications using modern web technologies, databases, and collaborative development practices. Currently expanding my expertise in software engineering and emerging technologies, with an expected graduation in 2028.
       </Typography>
     </Box>
   );
