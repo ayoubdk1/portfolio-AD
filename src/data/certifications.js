@@ -1,6 +1,7 @@
 import ciscoCybersecurity from '../assets/certifications/cisco-cybersecurity.png';
 import fccDataVisualization from '../assets/certifications/fcc-data-visualization.png';
 import ciscoPacketTracer from '../assets/certifications/cisco-packet-tracer.jpg';
+import ciscoCcnaIntroNetworks from '../assets/certifications/cisco-ccna-intro-networks.png';
 
 export const certifications = [
     {
@@ -25,6 +26,14 @@ export const certifications = [
         issuer: "Cisco Networking Academy",
         date: "November 2025",
         image: ciscoPacketTracer,
+        verifyLink: ""
+    },
+    {
+        id: 4,
+        title: "CCNA: Introduction to Networks",
+        issuer: "Cisco Networking Academy",
+        date: "July 2026",
+        image: ciscoCcnaIntroNetworks,
         verifyLink: ""
     }
 ];
