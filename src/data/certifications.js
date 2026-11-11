@@ -1,5 +1,4 @@
 import ciscoCybersecurity from '../assets/certifications/cisco-cybersecurity.png';
-import fccDataVisualization from '../assets/certifications/fcc-data-visualization.png';
 import ciscoPacketTracer from '../assets/certifications/cisco-packet-tracer.jpg';
 import ciscoCcnaIntroNetworks from '../assets/certifications/cisco-ccna-intro-networks.png';
 import ciscoNetworkingBasics from '../assets/certifications/cisco-networking-basics.png';
@@ -12,14 +11,6 @@ export const certifications = [
         date: "April 2025",
         image: ciscoCybersecurity,
         verifyLink: ""
-    },
-    {
-        id: 2,
-        title: "Data Visualization",
-        issuer: "freeCodeCamp",
-        date: "May 2025",
-        image: fccDataVisualization,
-        verifyLink: "https://www.freecodecamp.org/certification/ayoub_dk/data-visualization"
     },
     {
         id: 3,
