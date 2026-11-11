@@ -14,10 +14,10 @@ const Hero = () => {
             Hi, I'm Ayoub.
           </Typography>
           <Typography variant="h5" color="text.secondary" gutterBottom>
-            Computer Engineering Student
+            Fintech Engineering Student
           </Typography>
           <Typography variant="body1" paragraph sx={{ mb: 4 }}>
-            I build scalable web applications, bridging the gap between elegant frontend interfaces and robust backend architectures.
+            Designing scalable financial workflows and real-time AML engines. I focus on integrating artificial intelligence with robust microservices to solve complex enterprise bottlenecks.
           </Typography>
           <Box sx={{ display: 'flex', gap: 2 }}>
             <Button variant="contained" color="primary" href="#projects" size="large">
