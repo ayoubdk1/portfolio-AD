@@ -25,5 +25,15 @@ export const projects = [
         githubLink: "",
         liveDemo: "",
         image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        id: 4,
+        title: "AI-Driven Financial Workflow Automator",
+        description: "An event-driven ETL pipeline that ingests unstructured financial documents and extracts structured JSON data using AI. Features a human-in-the-loop approval dashboard with enterprise-grade observability and error tracking.",
+        techStack: ["Next.js", "n8n", "MySQL", "Gemini AI", "Sentry", "Tailwind"],
+        githubLink: "https://github.com/ayoubdk1/AI-Driven-Financial-Workflow-.git",
+        linkedinLink: "https://lnkd.in/p/eGMUVMR4",
+        liveDemo: "",
+        image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80"
     }
 ];

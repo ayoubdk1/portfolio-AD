@@ -37,6 +37,11 @@ const Projects = () => {
                 <Button variant="outlined" size="small" color="primary" href={project.githubLink} target="_blank">
                   GitHub
                 </Button>
+                {project.linkedinLink && (
+                  <Button variant="outlined" size="small" color="primary" href={project.linkedinLink} target="_blank" rel="noopener noreferrer">
+                    LinkedIn Post
+                  </Button>
+                )}
                 {project.liveDemo && (
                   <Button variant="contained" size="small" color="primary" href={project.liveDemo} target="_blank">
                     Live Demo
