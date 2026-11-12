@@ -1,14 +1,26 @@
 export const skillsData = [
     {
         category: "Frontend",
-        skills: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Material UI"]
+        skills: ["React", "Next.js", "TypeScript", "Tailwind"]
     },
     {
         category: "Backend",
-        skills: ["Symfony (PHP)", "Java", "Python", "REST APIs", "MySQL"]
+        skills: ["Python", "FastAPI", "Symfony", "Java"]
     },
     {
-        category: "Tools & Concepts",
-        skills: ["Git", "GitHub", "OOP", "MVC Architecture", "Agile", "n8n", "Gemini AI", "Sentry", "ESLint"]
+        category: "Databases",
+        skills: ["PostgreSQL", "MySQL"]
+    },
+    {
+        category: "Infrastructure",
+        skills: ["Docker", "Linux", "VMware"]
+    },
+    {
+        category: "Engineering",
+        skills: ["REST APIs", "OOP", "MVC", "Git"]
+    },
+    {
+        category: "AI & Automation",
+        skills: ["n8n", "Gemini AI"]
     }
 ];

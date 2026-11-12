@@ -10,7 +10,7 @@ const Skills = () => {
       </Typography>
       <Grid container spacing={4} sx={{ mt: 2 }}>
         {skillsData.map((cat, idx) => (
-          <Grid item xs={12} md={4} key={idx}>
+          <Grid item xs={12} sm={6} md={4} key={idx}>
             <Typography variant="h6" gutterBottom fontWeight="bold">{cat.category}</Typography>
             <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1 }}>
               {cat.skills.map(skill => (
