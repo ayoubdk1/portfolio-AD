@@ -1,86 +1,79 @@
 \documentclass[a4paper,10pt]{article}
 
-\usepackage[margin=1in]{geometry}
+\usepackage[margin=0.75in]{geometry}
 \usepackage{enumitem}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
 
 \titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{10pt}{6pt}
 
 \begin{document}
 
 \begin{center}
-    {\LARGE \textbf{Ayoub Dakhli}} \\
-    \vspace{2mm}
-    Full-Stack Engineering Student \\
-    \vspace{2mm}
+    {\LARGE \textbf{Ayoub Dakhli}} \\[3pt]
+    {\large FinTech Engineering Student} \\[4pt]
     +216 55 940 430 \quad | \quad
-    \href{mailto:dakhliayoub99@gmail.com}{dakhliayoub99@gmail.com} \\
-    Ariana, Tunisia \\
-    \vspace{1mm}
-    \textbf{Portfolio:} \url{https://yourportfolio.com} \quad | \quad
-    \textbf{GitHub:} \url{https://github.com/your-username}
+    \href{mailto:dakhliayoub99@gmail.com}{dakhliayoub99@gmail.com} \quad | \quad
+    Ariana, Tunisia \\[2pt]
+    \textbf{Portfolio:} \href{https://ayoubdk1.github.io/portfolio-AD/}{ayoubdk1.github.io/portfolio-AD} \quad | \quad
+    \textbf{GitHub:} \href{https://github.com/ayoubdk1}{github.com/ayoubdk1} \quad | \quad
+    \textbf{LinkedIn:} \href{https://www.linkedin.com/in/dakhli-ayoub-a68aa23b2/}{linkedin.com/in/dakhli-ayoub-a68aa23b2}
 \end{center}
 
-\vspace{4mm}
-
-\section*{Objective}
-Engineering student specializing in software engineering, seeking a summer internship in full-stack development. 
-Focused on building scalable web applications and strengthening backend and frontend development skills in a real-world environment.
+\section*{Profile}
+4th-Year FinTech Engineering Student at ESPRIT building at the intersection of financial architecture, interactive web applications, and intelligent automation. Experienced in shipping end-to-end platforms---from responsive React/TypeScript dashboards and n8n automations to FastAPI/Java microservices, ML-driven risk engines, and Dockerized cloud infrastructure.
 
 \section*{Education}
-\textbf{Engineering Degree in Computer Science} \hfill 2022 -- 2028 (Expected) \\
-ESPRIT – Private Higher School of Engineering and Technologies, Tunis
+\textbf{Engineering Degree in Computer Science (FinTech Engineering)} \hfill 2022 -- 2028 (Expected) \\
+ESPRIT -- Private Higher School of Engineering and Technologies, Tunis
+
+\section*{Technical Skills}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=2pt]
+    \item \textbf{Frontend:} React, Next.js, TypeScript, Tailwind
+    \item \textbf{Backend:} Python, FastAPI, Symfony, Java
+    \item \textbf{Databases:} PostgreSQL, MySQL
+    \item \textbf{Infrastructure:} Docker, Linux, VMware
+    \item \textbf{Engineering:} REST APIs, OOP, MVC, Git
+    \item \textbf{AI \& Automation:} n8n, Gemini AI
+\end{itemize}
 
 \section*{Projects}
 
-\textbf{Khademni – Service Matching SaaS Platform} \\
-\url{https://github.com/rg-esprit/5ademni.tn}
-\begin{itemize}[noitemsep]
-    \item Developed a full-stack web platform connecting users with service providers
-    \item Designed backend using \textbf{Symfony (PHP)} with structured \textbf{MySQL} database
-    \item Built responsive frontend interfaces using \textbf{HTML, CSS, JavaScript}
-    \item Implemented version control and team collaboration using \textbf{Git \& GitHub}
-    \item Worked in Agile environment (task management, iterations, code reviews)
+\textbf{AI-Driven Financial Workflow Automator} \hfill \textit{Next.js, n8n, MySQL, Gemini AI, Sentry, Tailwind} \\
+\href{https://github.com/ayoubdk1/AI-Driven-Financial-Workflow-}{github.com/ayoubdk1/AI-Driven-Financial-Workflow-}
+\begin{itemize}[noitemsep, topsep=2pt]
+    \item Built an event-driven ETL pipeline that ingests unstructured financial documents and extracts structured JSON data using AI.
+    \item Developed a human-in-the-loop approval dashboard with enterprise-grade observability and error tracking.
 \end{itemize}
 
-\vspace{2mm}
+\vspace{4pt}
 
-\textbf{Personal Portfolio Website} \\
-\begin{itemize}[noitemsep]
-    \item Designed and developed a personal portfolio to showcase projects and technical skills
-    \item Built using \textbf{React} and \textbf{Material UI} with responsive design
-    \item Implemented automated deployment pipeline using \textbf{GitHub}
-    \item Centralized multiple projects with descriptions, technologies, and source code links
+\textbf{Projet Int\'{e}gr\'{e} -- Infrastructure Syst\`{e}mes \& R\'{e}seaux} \hfill \textit{GNS3, Linux, VMware, MySQL, Apache, NFS, Grafana, Prometheus, Shell}
+\begin{itemize}[noitemsep, topsep=2pt]
+    \item Designed and deployed a distributed network infrastructure combining physical equipment, virtualization, and system services.
+    \item Implemented static and dynamic routing, integrating web, NFS, monitoring, and database services in a secured virtualized environment.
 \end{itemize}
 
-\section*{Technical Skills}
-\textbf{Languages:} Java, Python, PHP, JavaScript \\
-\textbf{Frontend:} HTML, CSS, JavaScript, React \\
-\textbf{Backend:} Symfony (PHP), REST APIs (basic) \\
-\textbf{Database:} MySQL \\
-\textbf{Tools:} Git, GitHub \\
-\textbf{Concepts:} OOP, MVC Architecture, Agile methodology
+\vspace{4pt}
 
-\section*{Experience (Academic)}
-\begin{itemize}[noitemsep]
-    \item Developed and deployed web applications from concept to implementation
-    \item Collaborated in team environments using Git-based workflows
-    \item Applied best practices in code structure, readability, and maintainability
+\textbf{Khademni -- Service Matching Platform} \hfill \textit{Symfony, PHP, MySQL, JavaScript, HTML/CSS, Git} \\
+\href{https://github.com/rg-esprit/5ademni.tn}{github.com/rg-esprit/5ademni.tn}
+\begin{itemize}[noitemsep, topsep=2pt]
+    \item Developed a full-stack web platform connecting users with service providers.
+    \item Built task management and user collaboration features in an Agile team environment.
 \end{itemize}
 
-\section*{Languages}
-\begin{itemize}[noitemsep]
-    \item Arabic: Native
-    \item French: Intermediate
-    \item English: Intermediate (technical proficiency)
+\section*{Certifications}
+\begin{itemize}[leftmargin=*, noitemsep, topsep=2pt]
+    \item \textbf{CCNA: Introduction to Networks} -- Cisco Networking Academy \hfill July 2026
+    \item \textbf{Networking Basics} -- Cisco Networking Academy \hfill July 2026
+    \item \textbf{Getting Started with Cisco Packet Tracer} -- Cisco Networking Academy \hfill November 2025
+    \item \textbf{Introduction to Cybersecurity} -- Cisco Networking Academy \hfill April 2025
 \end{itemize}
 
-\section*{Interests}
-\begin{itemize}[noitemsep]
-    \item Software development and emerging technologies
-    \item Open-source projects
-    \item Running and cinematography
-\end{itemize}
+\section*{Languages \& Interests}
+\textbf{Languages:} Arabic (Native), French (Intermediate), English (Intermediate -- Technical Proficiency) \\
+\textbf{Interests:} Financial technology \& AI automation, Open-source projects, Running and cinematography
 
 \end{document}

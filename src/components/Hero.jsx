@@ -23,7 +23,13 @@ const Hero = () => {
             <Button variant="contained" color="primary" href="#projects" size="large">
               What have I built?
             </Button>
-            <Button variant="outlined" color="primary" href="/Ayoub_Dakhli_CV.tex" download size="large">
+            <Button
+              variant="outlined"
+              color="primary"
+              href={`${import.meta.env.BASE_URL}Ayoub_Dakhli_CV.pdf`}
+              download="Ayoub_Dakhli_CV.pdf"
+              size="large"
+            >
               Download CV
             </Button>
           </Box>
