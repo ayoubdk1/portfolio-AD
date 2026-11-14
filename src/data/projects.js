@@ -10,7 +10,7 @@ export const projects = [
     },
     {
         id: 3,
-        title: "Projet Intégré – Infrastructure Systèmes & Réseaux",
+        title: "Systems & Network Infrastructure",
         description: "Design and deployment of a distributed network infrastructure combining physical equipment, virtualization, and system services. The project includes static and dynamic routing, integration of web, NFS, monitoring, and database services, as well as securing and supervising the architecture in a virtualized environment.",
         techStack: ["GNS3", "Linux", "VMware", "MySQL", "Apache", "NFS", "Grafana", "Prometheus", "Shell"],
         githubLink: "",
